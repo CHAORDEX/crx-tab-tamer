@@ -1,0 +1,17 @@
+{
+  "name": "tabtamer",
+  "version": "1.0.0",
+  "description": "Chrome extension to organize and sort tabs by domain name",
+  "scripts": {
+    "build": "rm -rf dist && tsc && cp src/manifest.json dist/ && cp -r src/icons dist/",
+    "watch": "tsc --watch"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "@types/chrome": "^0.0.260"
+  },
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
