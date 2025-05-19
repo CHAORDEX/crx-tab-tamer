@@ -9,7 +9,7 @@
 
 ## 安装  
 ### Chrome Web Store  
-[![Chrome Web Store](https://img.shields.io/chrome-web-store/v/your-extension-id?label=Install)](https://chrome.google.com/webstore/detail/tabtamer/...)  
+[![Chrome Web Store](https://img.shields.io/chrome-web-store/v/pgigimdcdgfghgojiacgolmfponpidac?label=Install)](https://chromewebstore.google.com/detail/tabtamer/pgigimdcdgfghgojiacgolmfponpidac)  
 
 ### 手动安装  
 1. 下载本仓库 `zip` 并解压  
