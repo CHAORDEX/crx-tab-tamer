@@ -3,7 +3,7 @@
   "version": "1.0.1",
   "description": "Chrome extension to organize and sort tabs by domain name",
   "scripts": {
-    "build": "rm -rf dist && tsc && cp src/manifest.json dist/ && cp -r src/icons dist/",
+    "build": "rm -rf dist && tsc && cp src/*.json dist/ && cp src/*.html dist/ 2>/dev/null || : && cp -r src/icons dist/",
     "watch": "tsc --watch"
   },
   "devDependencies": {

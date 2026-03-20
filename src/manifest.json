@@ -4,7 +4,13 @@
   "version": "1.0.1",
   "description": "Sort tabs by domain name",
   "permissions": [
-    "tabs"
+    "tabs",
+    "tabGroups",
+    "scripting",
+    "storage"
+  ],
+  "host_permissions": [
+    "<all_urls>"
   ],
   "action": {
     "default_icon": {
@@ -16,6 +22,7 @@
   "background": {
     "service_worker": "background.js"
   },
+  "options_page": "options.html",
   "icons": {
     "16": "icons/icon16.png",
     "48": "icons/icon48.png",
